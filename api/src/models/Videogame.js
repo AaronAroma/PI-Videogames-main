@@ -11,27 +11,27 @@ module.exports = (sequelize) => {
       primaryKey: true,
       unique: true
     },
-    nombres: {
+    name: {
       type: DataTypes.STRING,
       allowNull: false
     },
-    descripcion: {
+    description: {
       type: DataTypes.TEXT,
       allowNull: false
     },
-    plataformas: {
+    platforms: {
       type: DataTypes.STRING,
       allowNull: false
     },
-    imagen: {
+    background_image: {
       type: DataTypes.STRING,
       allowNull: false
     },
-    FechaDeLanzamiento: {
+    released: {
       type: DataTypes.DATEONLY,
       allowNull: true
     },
-    Rating: {
+    rating: {
       type: DataTypes.FLOAT,
       allowNull: true
     }
